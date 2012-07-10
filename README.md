@@ -1,9 +1,4 @@
-pinax-project-account
-=====================
+Ideallab 
+========
 
-a starter project the incorporates account features from django-user-accounts
-
-
-To Use::
-
-    $ django-admin.py startproject [your_project_name] --template=https://github.com/pinax/pinax-project-account/zipball/master .
+Based on pinax-account, it will handle the users for the R integration.
