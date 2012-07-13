@@ -1,2 +1,4 @@
-# Avoinding teh sqlite db
+# Avoinding the sqlite db
 *.db
+
+*.pyc
