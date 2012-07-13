@@ -7,6 +7,18 @@
     {% block extra_head %}{% endblock %}
 {% endblock %}
 
+{% block nav %}
+<ul class="nav">
+    <li id="tab_first">
+        <a href="{% url contact_form %}">Contact</a>
+    </li>
+</ul>
+{% endblock %}
+
+
+
+
+
 {% block footer %}
     {% include "_footer.html" %}
 {% endblock %}

@@ -1,0 +1,24 @@
+{% extends "site_base.html" %}
+{% load bootstrap_tags %}
+{% load i18n %}
+
+{% block head_title %}Contact{% endblock %}
+{% block body %}
+<div class="row">
+	
+	<div class="span4 offset4">
+		<h1>Contact us!</h1>
+
+		<form method="POST" action="{% url contact_form %}">
+			<legend>Write your thoughts</legend>
+		{% csrf_token %}
+		{{form|as_bootstrap }}
+		<div class="form-actions">
+		  <button type="submit" class="btn btn-primary" 
+		  value="{% trans "Send Email" %}">{% trans "Send Email" %}</button>
+		</div>
+		</form>
+	</div>
+	
+</div>
+{% endblock %}
