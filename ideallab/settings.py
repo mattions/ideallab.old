@@ -137,7 +137,7 @@ INSTALLED_APPS = [
     "metron",
 
     # project
-    'contact_form',
+    #'contact_form',
 ]
 
 # A sample logging configuration. The only tangible logging
