@@ -8,6 +8,7 @@ DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = [
+    ("Test", "test@example.com"),
     # ("Your Name", "your_email@example.com"),
 ]
 
@@ -136,6 +137,7 @@ INSTALLED_APPS = [
     "metron",
 
     # project
+    'contact_form',
 ]
 
 # A sample logging configuration. The only tangible logging
@@ -172,6 +174,8 @@ FIXTURE_DIRS = [
 ]
 
 EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
+EMAIL_HOST = 'localhost'
+EMAIL_PORT = 1025
 
 ACCOUNT_OPEN_SIGNUP = False
 ACCOUNT_USE_OPENID = False
