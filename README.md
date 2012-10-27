@@ -1,4 +1,4 @@
 Ideallab 
 ========
 
-Based on pinax-account, it will handle the users for the R integration.
+Based on pinax ecosystem, it will handle the users for the R integration.
